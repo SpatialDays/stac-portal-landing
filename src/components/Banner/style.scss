@@ -30,6 +30,10 @@
   .banner__btn {
     width: 100%;
 
+    & a {
+      text-decoration: none;
+    }
+
     .btn--primary {
       display: block;
       padding: 10px;

@@ -4,7 +4,7 @@ import config from "../../site-config.json";
 
 const Heading = () => {
   const handleClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.location.href = "/";
   };
 
   return (

@@ -34,9 +34,11 @@
   },
   "hero": {
     "heading": "Explore UK's Geospatial World",
-    "subheading": "With the Ordnance Survey's STAC Portal, locate, and manage spatial and temporal assets with ease."
+    "subheading": "With the Ordnance Survey's STAC Portal, locate, and manage spatial and temporal imagery assets with ease.",
+    "buttonText": "Log in to OS STAC Portal",
+    "buttonURL": "https://os-eo-platform-rg-staging-stac-portal-frontend.azurewebsites.net"
   },
-  "block": "Our STAC portal provides a scalable catalogue of Earth Observation (EO) data that are easily searchable and explorable. We enable governments and businesses to make insightful decisions based on location data, and help everyone experience the benefits of the geospatial world.",
+  "block": "Our STAC Portal provides a scalable, spatio-temporal catalogue of imagery data (including earth observation, aerial photography and height data) that is easily searchable and discoverable. This STAC Portal will enable the Ordnance Survey to better manage and provide access to their imagery data resources.",
   "cards": [
     {
       "id": 1,
@@ -55,7 +57,7 @@
   ],
   "contact": {
     "heading": "Contact Us",
-    "subheading": "For any queries about the STAC Portal, please contact:",
+    "subheading": "For any queries about the OS STAC Portal, please contact:",
     "contact-details-cards": [
       {
         "id": 1,

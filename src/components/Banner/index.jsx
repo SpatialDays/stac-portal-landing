@@ -8,7 +8,11 @@ const Banner = () => {
         <h1 className="banner__title">{config.hero.heading}</h1>
         <p className="banner__description">{config.hero.subheading}</p>
         <div className="banner__btn">
-          <button className="btn btn--primary">See more</button>
+          <a href={config.hero.buttonURL} target="_blank" rel="noreferrer">
+            <button className="btn btn--primary">
+              {config.hero.buttonText}
+            </button>
+          </a>
         </div>
       </div>
     </div>
